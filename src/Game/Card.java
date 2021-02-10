@@ -1,3 +1,5 @@
+package Game;
+
 public class Card {
     private Symbol symbol;
     private Number number;

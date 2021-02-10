@@ -1,14 +1,13 @@
-import java.awt.*;
+package Game;
+
 import java.util.ArrayList;
 
 public class Player {
-    public int x;
-    public int y;
+    private int number;
     private ArrayList<Card> cards = new ArrayList<>();
 
-    public Player(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public Player(int number) {
+        this.number = number;
     }
 
     public void addCard(Card card){
@@ -17,5 +16,9 @@ public class Player {
 
     public void removeCard(Card card){
         cards.remove(card); //TODO TEST IF .EQUALS OR ==
+    }
+
+    public String getName(){
+        return "Player "+number;
     }
 }
