@@ -1,7 +1,8 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.util.ArrayList;
 
 public class GUI {
     private int numPlayers = 0;
@@ -97,7 +98,7 @@ public class GUI {
 
         //other players and their cards
         for (int i = 0; i < numPlayers; i++) {
-            panelHolder[i][1].add(new JLabel("Player " + (i + 1)));
+            panelHolder[i][1].add(new JLabel("Player " + (i + 1) + ":")); //todo complete using https://stackoverflow.com/questions/766956/how-do-i-create-a-right-click-context-menu-in-java-swing
         }
 
     }
