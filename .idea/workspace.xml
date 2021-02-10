@@ -5,41 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd3126e-763d-4ee1-8a3d-6646952f487c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Codename_One_Libraries.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CardCounter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeNameOneBuildClient.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versions.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codenameone_kotlin.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codenameone_settings.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CLDC11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CodenameOne.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CodenameOne_SRC.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/nativej2me.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/COGiven/MyApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/generated/StateMachineBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/theme.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/userclasses/StateMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COGiven/MyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/StateMachineBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userclasses/StateMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardCounter2/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardCounter2/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +37,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
@@ -100,11 +76,22 @@
       <option name="presentableId" value="Default" />
       <updated>1612943795202</updated>
       <workItem from="1612943796279" duration="27000" />
-      <workItem from="1612943897202" duration="300000" />
+      <workItem from="1612943897202" duration="4723000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
