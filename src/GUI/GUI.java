@@ -1,11 +1,17 @@
 package GUI;
 
+import Game.Player;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 
 public class GUI {
     private int numPlayers = 0;
+//    private ArrayList<Player> players = new ArrayList<>();
     private final int STARTINGYPOSITION = 50;
     private final int YDIF = 50;
 
@@ -98,7 +104,20 @@ public class GUI {
 
         //other players and their cards
         for (int i = 0; i < numPlayers; i++) {
-            panelHolder[i][1].add(new JLabel("Player " + (i + 1) + ":")); //todo complete using https://stackoverflow.com/questions/766956/how-do-i-create-a-right-click-context-menu-in-java-swing
+            Player newPlayer = new Player(i);
+//            players.add(newPlayer);
+            JLabel nameLabel = new JLabel(newPlayer.getName() + ":");
+            nameLabel.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    //based off https://stackoverflow.com/questions/4525733/java-mouse-event-right-click
+                    if (SwingUtilities.isRightMouseButton(e)){
+                        System.out.println("right clicked");
+                        new Popup(newPlayer).show(nameLabel, e.getX(), e.getY());
+                    }
+                }
+            });
+            panelHolder[i][1].add(nameLabel); //todo complete using https://stackoverflow.com/questions/766956/how-do-i-create-a-right-click-context-menu-in-java-swing
         }
 
     }
