@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 
-public class GUI extends JFrame {
+public class GUI {
     private int numPlayers = 0;
     private final int STARTINGYPOSITION = 50;
     private final int YDIF = 50;
@@ -83,21 +83,21 @@ public class GUI extends JFrame {
         mainFrame.setVisible(true);
 
         //mainFrame layout
-        int rows = 3;
-        int columns = numPlayers;
+        int rows = numPlayers;
+        int columns = 3;
         JPanel[][] panelHolder = new JPanel[rows][columns];
         mainFrame.setLayout(new GridLayout(rows,columns));
 
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < columns; j++) {
                 panelHolder[i][j] = new JPanel();
-                add(panelHolder[i][j]);
+                mainFrame.add(panelHolder[i][j]);
             }
         }
 
         //other players and their cards
         for (int i = 0; i < numPlayers; i++) {
-            panelHolder[2][i].add(new JLabel("Player " + (i + 1)));
+            panelHolder[i][1].add(new JLabel("Player " + (i + 1)));
         }
 
     }
