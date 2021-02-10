@@ -4,67 +4,107 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be79b122-6832-41e2-bb44-4bd7a0e1b9db" name="Default Changelist" comment="" />
+    <list default="true" id="2cd3126e-763d-4ee1-8a3d-6646952f487c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Codename_One_Libraries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardCounter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeNameOneBuildClient.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versions.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codenameone_kotlin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codenameone_settings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CLDC11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CodenameOne.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CodenameOne_SRC.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/nativej2me.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/COGiven/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/generated/StateMachineBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/theme.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardCounter/userclasses/StateMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/COGiven/MyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/StateMachineBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userclasses/StateMachine.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1n2JND8QfFOepHF5zx2fhzQzvff" />
+  <component name="ProjectId" id="1oHW31HdaN70jf6q4v8CkDj6x7G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="GUI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GUI" />
+      <module name="CardCounter2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run in Device Simulator" type="#com.codename1.plugin.intellij.run.CodenameOneConfigurationType" factoryName="Codename One" temporary="true">
-      <setting name="mainClass" value="COGiven.MyApplication" />
-      <setting name="vmparams" value="" />
-      <setting name="workDir" value="" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Codename One.Run in Device Simulator" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <created>1610582211907</created>
+      <changelist id="2cd3126e-763d-4ee1-8a3d-6646952f487c" name="Default Changelist" comment="" />
+      <created>1612943795202</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610582211907</updated>
+      <updated>1612943795202</updated>
+      <workItem from="1612943796279" duration="27000" />
+      <workItem from="1612943897202" duration="300000" />
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
