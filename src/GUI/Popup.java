@@ -1,5 +1,6 @@
 package GUI;
 
+import Game.CardPicker;
 import Game.Player;
 
 import javax.swing.*;
@@ -17,7 +18,9 @@ public class Popup extends JPopupMenu {
         add(addItem);add(removeItem);
 
         addItem.addActionListener(e -> {
-            System.out.println("adding to "+player.getName()+"'s cards.");
+//            System.out.println("adding to "+player.getName()+"'s cards.");
+            CardPicker cp = new CardPicker(player, GUI.getMainFrame(), true);
+            System.out.println("cardpicker up");
             player.addCard(null);
         });
 

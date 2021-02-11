@@ -11,7 +11,8 @@ import java.util.ArrayList;
 
 public class GUI {
     private int numPlayers = 0;
-//    private ArrayList<Player> players = new ArrayList<>();
+    private static ArrayList<JLabel> playerLabels = new ArrayList<>();
+    private static ArrayList<Player> players = new ArrayList<>();
     private final int STARTINGYPOSITION = 50;
     private final int YDIF = 50;
 
@@ -21,7 +22,7 @@ public class GUI {
     public GUI() {
 
         while (numPlayers <= 0){
-            SpinnerNumberModel sModel = new SpinnerNumberModel(1, 1, 30, 1);
+            SpinnerNumberModel sModel = new SpinnerNumberModel(3, 1, 30, 1);
             JSpinner spinner = new JSpinner(sModel);
 
             int option = JOptionPane.showOptionDialog(null, spinner, "How many players?",
@@ -105,8 +106,9 @@ public class GUI {
         //other players and their cards
         for (int i = 0; i < numPlayers; i++) {
             Player newPlayer = new Player(i);
-//            players.add(newPlayer);
+            players.add(newPlayer);
             JLabel nameLabel = new JLabel(newPlayer.getName() + ":");
+            nameLabel.setSize(250, 15);
             nameLabel.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
@@ -117,9 +119,20 @@ public class GUI {
                     }
                 }
             });
+            playerLabels.add(nameLabel);
             panelHolder[i][1].add(nameLabel); //todo complete using https://stackoverflow.com/questions/766956/how-do-i-create-a-right-click-context-menu-in-java-swing
         }
 
+    }
+
+    public static void refreshCards(){
+        for (int i =0; i < playerLabels.size(); i++){
+            playerLabels.get(i).setText(players.get(i).getName() + ": \n" + players.get(i).getCardsAsString());
+        }
+    }
+
+    public static JFrame getMainFrame() {
+        return mainFrame;
     }
 
     public static void main(String[] args) {

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd3126e-763d-4ee1-8a3d-6646952f487c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GUI/Popup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/CardPicker.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/CardPicker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Popup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Popup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <updated>1612943795202</updated>
       <workItem from="1612943796279" duration="27000" />
       <workItem from="1612943897202" duration="6156000" />
-      <workItem from="1612994674390" duration="2451000" />
+      <workItem from="1612994674390" duration="8437000" />
     </task>
     <servers />
   </component>
